@@ -14,11 +14,11 @@ meanindex - column numbers for features with mean()
 stdindex: column numbers for features with std()
 allcombinedstdmean: column numbers for all of the desired features (a vector combining mean_ind and std_ind)
 
-#activity variables
+#Activity variables
 
 activity: a two column list consisting of the activity index and the corresponding label e.g. 1,Sitting
 
-variables - training and testing data
+Variables - training and testing data
 
 
 train_subject: vector with subject IDs (from the training (testing) set)
@@ -29,7 +29,7 @@ train_all: a data.frame with a column for subject IDs, a column for activity lab
 
 all_data: the result of combining train_all and test_all
 
-#averaging features
+#Averaging features
 
 select_data: the portion of all_data corresponding to a certain subject engaged in a certain activity
 tidy_data_set: final cleaned and processed dataset, saved to disk
