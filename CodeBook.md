@@ -29,7 +29,7 @@ train_all: a data.frame with a column for subject IDs, a column for activity lab
 
 all_data: the result of combining train_all and test_all
 
-#averaging across desired features
+#averaging features
 
 select_data: the portion of all_data corresponding to a certain subject engaged in a certain activity
 tidy_data_set: final cleaned and processed dataset, saved to disk
